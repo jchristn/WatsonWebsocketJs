@@ -1,0 +1,15 @@
+{
+  "name": "watsonws",
+  "version": "1.0.0",
+  "description": "SDK for Watson Websocket",
+  "main": "watson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watson",
+    "websocket"
+  ],
+  "author": "jchristn",
+  "license": "MIT"
+}
