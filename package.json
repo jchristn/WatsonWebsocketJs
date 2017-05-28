@@ -1,5 +1,5 @@
 {
-  "name": "watsonws",
+  "name": "watsonwebsocket",
   "version": "1.0.0",
   "description": "SDK for Watson Websocket",
   "main": "watson.js",
