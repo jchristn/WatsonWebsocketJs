@@ -11,5 +11,9 @@
     "websocket"
   ],
   "author": "jchristn",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ws": ">=3.0.0",
+    "prompt": ">=1.0.0"
+  }
 }
