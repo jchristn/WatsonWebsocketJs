@@ -22,6 +22,12 @@ function processCommands() {
             var command = result.Command.toString().trim();
             switch (result.Command) {
                 case "?":
+                    console.log("Available commands:");
+                    console.log(" ?        help, this menu");
+                    console.log(" q        quit");
+                    console.log(" state    show if the websocket is connected");
+                    console.log(" connect  connect if websocket is disconnected");
+                    console.log(" <other>  send data to the websocket");
                     break;
 
                 case "connect":
