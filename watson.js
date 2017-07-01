@@ -36,10 +36,7 @@ class Watson {
 
     _onMessage(evt, callback) {
         this._log("_onMessage received message: " + evt.data);
-        var colonPos = evt.data.indexOf(":") + 1;
-        if (colonPos > 0) {
-            setTimeout(() => callback(evt.data.toString().substr(colonPos), null));
-        }
+        setTimeout(() => callback(evt.data.toString().substr(colonPos), null)); 
     }
 
     _onError(evt, callback) {
@@ -62,9 +59,8 @@ class Watson {
             return;
         }
         else {
-            this._log("send sending message: " + message);
-            var messageData = message.length + ":" + message;
-            this._websocket.send(messageData);
+            this._log("send sending message: " + message); 
+            this._websocket.send(message);
             return;
         }
     }
